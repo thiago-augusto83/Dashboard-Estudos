@@ -7,13 +7,34 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="/">Dashboard</NavLink>
+            <NavLink
+              to="/"
+              className={({ isActive }) => {
+                return isActive ? Styles.active : "";
+              }}
+            >
+              DASHBOARD
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/products">Products</NavLink>
+            <NavLink
+              to="/products"
+              className={({ isActive }) => {
+                return isActive ? Styles.active : "";
+              }}
+            >
+              PRODUCTS
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) => {
+                return isActive ? Styles.active : "";
+              }}
+            >
+              ABOUT
+            </NavLink>
           </li>
         </ul>
       </nav>
