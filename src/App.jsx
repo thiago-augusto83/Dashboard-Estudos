@@ -1,8 +1,8 @@
 import { MainLayout } from "./layouts/MainLayout";
-import { Dashboard } from "./pages/Dashboard.jsx";
+import { Dashboard } from "./pages/Dashboard/index.jsx";
 import { About } from "./pages/About.jsx";
 import { Products } from "./pages/Products.jsx";
-import {Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
