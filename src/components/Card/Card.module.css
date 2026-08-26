@@ -10,3 +10,15 @@
   gap: 10px;
   font-size: 22px;
 }
+
+.normal {
+  background-color: yellow;
+}
+
+.success {
+  background-color: green;
+}
+
+.warning {
+  background-color: orange;
+}
