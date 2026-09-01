@@ -1,5 +1,5 @@
 .container {
-  width: 300px;
+  width: 250px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -17,6 +17,7 @@
 
 .success {
   background-color: green;
+  color: #FFF;
 }
 
 .warning {
